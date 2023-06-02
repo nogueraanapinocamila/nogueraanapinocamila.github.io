@@ -1,0 +1,89 @@
+.bg-naun {
+   background-color: #BBD6B8;
+   padding-left: 50px;
+}
+
+.img_hero {
+   height: 100vh;
+   background-image: linear-gradient(45deg, rgba(0, 0, 0, .8), rgba(0, 0, 0, 0)), url(img/grie.jpeg);
+   background-position: center;
+   background-size: cover;
+   background-repeat: no-repeat;
+}
+
+.colo {
+   color: white;
+}
+
+.text_header {
+   width: 80%;
+   height: 100vh;
+   padding: 200px 60px 100px 60px;
+   color: #fff;
+   padding-left: 30px;
+   padding-top: 80px;
+}
+
+.text_header {
+   width: 80%;
+   height: 100vh;
+   padding: 200px 60px 100px 60px;
+   color: #fff;
+   padding-left: 30px;
+   padding-top: 80px;
+}
+
+.section_textos {
+   color: #C36A2D;
+   height: 90vh;
+   padding: 20px 50px;
+}
+
+.card-img-top {
+   max-height: 150px;
+}
+
+.fondo {
+   color: #DBE4C6;
+}
+
+.parrafo {
+   font-family: arial;
+   padding-left: 20px;
+   padding-top: 10px;
+}
+
+.section_token {
+   height: 100%;
+   background-color: #C36A2D;
+}
+
+.titulo1 {
+   padding-left: 30px;
+   padding-top: 20px;
+   font-size: 50px;
+   color: #fff;
+}
+
+.titulo2 {
+   padding-left: 30px;
+   padding-bottom: 50px;
+   color: #fff;
+}
+
+.footer {
+   height: 80px;
+   padding-top: 10px;
+   background-color: #BBD6B8;
+}
+
+
+
+/* ESTILOS PARA LAS FICHAS */
+.titulo {
+   padding: 50px;
+}
+
+.subtitulo {
+   padding-top: 30px;
+}

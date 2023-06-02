@@ -1,0 +1,98 @@
+/* MENÚ DE NAVEGACIÓN */
+.bg-naun {
+   background-color: #146C94;
+   padding-left: 50px;
+}
+
+.navbar-nav {
+   padding-right: 50px;
+}
+
+.navbar a {
+   color: #fff;
+}
+
+.navbar-nav li a {
+   color: #fff;
+}
+
+/* INTRODUCCIÓN */
+.main {
+   padding: 20px 50px;
+}
+
+.focus-in-contract-bck {
+   -webkit-animation: focus-in-contract-bck 1s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+   animation: focus-in-contract-bck 1s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+
+@-webkit-keyframes focus-in-contract-bck {
+   0% {
+      letter-spacing: 1em;
+      -webkit-transform: translateZ(300px);
+      transform: translateZ(300px);
+      -webkit-filter: blur(12px);
+      filter: blur(12px);
+      opacity: 0;
+   }
+
+   100% {
+      -webkit-transform: translateZ(12px);
+      transform: translateZ(12px);
+      -webkit-filter: blur(0);
+      filter: blur(0);
+      opacity: 1;
+   }
+}
+
+@keyframes focus-in-contract-bck {
+   0% {
+      letter-spacing: 1em;
+      -webkit-transform: translateZ(300px);
+      transform: translateZ(300px);
+      -webkit-filter: blur(12px);
+      filter: blur(12px);
+      opacity: 0;
+   }
+
+   100% {
+      -webkit-transform: translateZ(12px);
+      transform: translateZ(12px);
+      -webkit-filter: blur(0);
+      filter: blur(0);
+      opacity: 1;
+   }
+}
+
+/* TARJETAS */
+.section_margen {
+   padding: 50px;
+   background-color: #146C94;
+}
+
+.section_margen h2 {
+   color: #fff;
+}
+
+.card {
+   box-shadow: 0px 0px 10px 0px rgb(255, 255, 255);
+}
+
+/* FOOTER */
+.footer {
+   background-color: #146C94;
+}
+
+.footer h5,
+h6 {
+   color: #fff;
+}
+/* marco conceptual*/
+.marco{
+   background-color:#146C94 ;
+   color: white;
+}
+.container{
+   max-width: 900px ;
+   padding-top: 30px;
+}
